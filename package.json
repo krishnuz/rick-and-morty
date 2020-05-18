@@ -19,6 +19,8 @@
     "webpack": "^4.41.1"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "next": "9.4.1",
     "next-redux-wrapper": "^6.0.0",
     "react": "16.13.1",

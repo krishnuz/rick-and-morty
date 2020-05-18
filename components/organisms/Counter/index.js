@@ -1,7 +1,14 @@
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
+import styled from '@emotion/styled'
 
 import actionCreators from '../../../redux/actions'
+
+import styles from './counter.styles'
+
+const Wrapper = styled('div')(styles.wrapper)
+const Paragraph = styled('p')(styles.paragraph)
+const Button = styled('button')(styles.button)
 
 const Counter = props => {
   const {
@@ -12,10 +19,10 @@ const Counter = props => {
     incrementCount()
   }
   return (
-    <div>
-      <button onClick={handleClick}>Increment counter</button>
-      <p>Count: {counter.count}</p>
-    </div>
+    <Wrapper>
+      <Paragraph>Count: {counter.count}</Paragraph>
+      <Button onClick={handleClick}>Increment count</Button>
+    </Wrapper>
   )
 }
 
