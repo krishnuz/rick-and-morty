@@ -1,6 +1,8 @@
-To run the server:
+Steps to view the result:
 
 ```bash
+git clone https://github.com/krishnuz/rick-and-morty.git
+cd rick-and-morty
 yarn
 yarn build
 yarn start
