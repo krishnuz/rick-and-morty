@@ -17,6 +17,7 @@ const styles = {
     background: colors.mediumGrey,
     color: colors.white,
     border: `1px solid ${colors.darkGrey}`,
+    cursor: 'pointer',
   },
   paragraph: {
     fontSize: fontSize.md,
