@@ -1,10 +1,10 @@
 import App from 'next/app'
 import styled from '@emotion/styled'
 
-import { wrapper } from '../redux/store'
+import { wrapper } from '../src/redux/store'
 
-import '../styles/global.css'
-import styles from '../styles/app.styles'
+import '../src/styles/global.css'
+import styles from '../src/styles/app.styles'
 
 const Main = styled('main')(styles.main)
 const Layout = styled('div')(styles.layout)

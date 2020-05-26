@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import styled from '@emotion/styled'
 
-import CharactersList from '../components/organisms/CharactersList'
+import CharactersList from '../src/components/organisms/CharactersList'
 
-import { fetchCharacters } from '../redux/actions/creators/characters'
+import { fetchCharacters } from '../src/redux/actions/creators/characters'
 
-import { CHARACTERS_LIST_ENDPOINT } from '../constants/endpoints'
+import { CHARACTERS_LIST_ENDPOINT } from '../src/constants/endpoints'
 
-import styles from '../styles/index.styles'
+import styles from '../src/styles/index.styles'
 
 const Wrapper = styled('div')(styles.wrapper)
 const LeftPanel = styled('div')(styles.leftPanel)
