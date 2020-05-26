@@ -1,7 +1,7 @@
-import { FETCH_CHARACTERS_DATA } from '../../constants/actions'
+import { FETCH_DATA } from '../constants/actions'
 
 const apiMiddleware = () => next => async action => {
-  if (action.type === FETCH_CHARACTERS_DATA) {
+  if (action.type === FETCH_DATA) {
     const { url, name: actionName } = action
     next({
       type: `${actionName}_INIT`,

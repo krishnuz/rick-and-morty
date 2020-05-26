@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 
 import CharactersList from '../src/components/organisms/CharactersList'
 
-import { fetchCharacters } from '../src/redux/actions/creators/characters'
+import { fetchCharacters } from '../src/actions/characters'
 
 import { CHARACTERS_LIST_ENDPOINT } from '../src/constants/endpoints'
 
@@ -34,7 +34,7 @@ const Home = () => {
 Home.getInitialProps = async ({ store }) => {
   await store.dispatch(
     fetchCharacters({
-      endpoint: CHARACTERS_LIST_ENDPOINT,
+      url: CHARACTERS_LIST_ENDPOINT,
     })
   )
   return {}

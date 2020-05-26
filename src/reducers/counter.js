@@ -1,4 +1,4 @@
-import { INCREMENT_COUNT } from '../actions/types/counter'
+import { INCREMENT_COUNT } from '../constants/actionTypes/counter'
 
 const initialState = {
   count: 0,

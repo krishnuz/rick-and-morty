@@ -1,4 +1,4 @@
-import * as charactersActions from './creators/characters'
+import * as charactersActions from './characters'
 
 const actionCreators = {
   ...charactersActions,

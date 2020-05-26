@@ -2,7 +2,7 @@ import { createStore, applyMiddleware, compose } from 'redux'
 import { createWrapper } from 'next-redux-wrapper'
 import thunkMiddleware from 'redux-thunk'
 
-import apiMiddleware from './middleware/apiMiddleware'
+import apiMiddleware from './middlewares/apiMiddleware'
 
 import rootReducer from './reducers'
 

@@ -1,7 +1,7 @@
 import App from 'next/app'
 import styled from '@emotion/styled'
 
-import { wrapper } from '../src/redux/store'
+import { wrapper } from '../src/store'
 
 import '../src/styles/global.css'
 import styles from '../src/styles/app.styles'

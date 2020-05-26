@@ -2,7 +2,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import styled from '@emotion/styled'
 
-import actionCreators from '../../../redux/actions'
+import actionCreators from '../../../actions'
 
 import styles from './counter.styles'
 

@@ -3,7 +3,7 @@ import {
   FETCH_CHARACTERS_INIT,
   FETCH_CHARACTERS_SUCCESS,
   FETCH_CHARACTERS_ERROR,
-} from '../actions/types/characters'
+} from '../constants/actionTypes/characters'
 
 const initialState = {
   isFetching: false,
