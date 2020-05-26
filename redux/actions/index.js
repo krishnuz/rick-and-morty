@@ -1,7 +1,7 @@
-import * as counterActions from './creators/counter'
+import * as charactersActions from './creators/characters'
 
 const actionCreators = {
-  ...counterActions,
+  ...charactersActions,
 }
 
 export default actionCreators
