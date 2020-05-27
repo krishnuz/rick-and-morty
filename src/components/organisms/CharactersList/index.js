@@ -1,15 +1,28 @@
 import { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
+import styled from '@emotion/styled-base'
+
+import Character from './Character'
 
 import actionCreators from '../../../actions'
+
+import styles from './charactersList.styles'
+
+const Wrapper = styled('div')(styles.wrapper)
 
 class CharactersList extends Component {
   render() {
     const {
       characters: { data },
     } = this.props
-    return <p>{data && data.info.count}</p>
+    return (
+      <Wrapper>
+        {data.results.map(characterData => (
+          <Character key={characterData.id} data={characterData} />
+        ))}
+      </Wrapper>
+    )
   }
 }
 

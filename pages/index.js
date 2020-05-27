@@ -21,9 +21,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Wrapper>
-        <LeftPanel>Left Panel</LeftPanel>
+        <LeftPanel>Filters</LeftPanel>
         <Content>
-          Content
           <CharactersList />
         </Content>
       </Wrapper>
