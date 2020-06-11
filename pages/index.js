@@ -5,8 +5,6 @@ import CharactersList from '../src/components/organisms/CharactersList'
 
 import { fetchCharacters } from '../src/actions/characters'
 
-import { CHARACTERS_LIST_ENDPOINT } from '../src/constants/endpoints'
-
 import styles from '../src/styles/index.styles'
 
 const Wrapper = styled('div')(styles.wrapper)
@@ -30,10 +28,13 @@ const Home = () => {
   )
 }
 
-Home.getInitialProps = async ({ store }) => {
+Home.getInitialProps = async ({ store, query }) => {
+  const { name, species, gender } = query
   await store.dispatch(
     fetchCharacters({
-      url: CHARACTERS_LIST_ENDPOINT,
+      name,
+      species,
+      gender,
     })
   )
   return {}
