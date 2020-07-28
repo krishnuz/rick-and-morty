@@ -11,7 +11,7 @@ const styles = {
     padding: '16px',
   },
   button: {
-    fontSize: fontSize.sm,
+    fontSize: fontSize.xs,
     padding: '5px 10px',
     borderRadius: '12px',
     background: colors.mediumGrey,

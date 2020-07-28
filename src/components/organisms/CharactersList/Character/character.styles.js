@@ -20,7 +20,7 @@ const styles = {
     boxSizing: 'border-box',
   },
   description: {
-    fontSize: fontSize.sm,
+    fontSize: fontSize.xs,
     marginTop: '4px',
   },
   image: {

@@ -16,6 +16,9 @@ class CharactersList extends Component {
     const {
       characters: { data },
     } = this.props
+    if (!data.results) {
+      return null
+    }
     return (
       <Wrapper>
         {data.results.map(characterData => (

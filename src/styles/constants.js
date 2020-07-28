@@ -9,7 +9,9 @@ export const colors = {
 
 // font sizes
 export const fontSize = {
-  sm: '14px',
+  xs: '14px',
+  sm: '20px',
   md: '24px',
+  xl: '28px',
   xxl: '40px',
 }

@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import CharactersList from '../src/components/organisms/CharactersList'
 
 import { fetchCharacters } from '../src/actions/characters'
+import Filters from '../src/components/organisms/Filters'
 
 import styles from '../src/styles/index.styles'
 
@@ -19,7 +20,9 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Wrapper>
-        <LeftPanel>Filters</LeftPanel>
+        <LeftPanel>
+          <Filters />
+        </LeftPanel>
         <Content>
           <CharactersList />
         </Content>
