@@ -5,6 +5,10 @@ const styles = {
     width: 'calc(25% - 9px)',
     background: colors.darkGrey,
     marginBottom: '12px',
+    marginRight: '12px',
+    '&:nth-child(4n)': {
+      marginRight: 0,
+    },
   },
   header: {
     position: 'relative',
