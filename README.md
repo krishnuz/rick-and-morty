@@ -19,5 +19,3 @@ I have used following for architecture of the application -
 > CSS in js – emotion
 > Redux
 ```
-
-Note: I am not able to complete the assignment due to time issues. Will try to complete it.
