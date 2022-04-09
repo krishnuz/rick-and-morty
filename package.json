@@ -23,7 +23,7 @@
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "formik": "^2.1.4",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "next": "9.4.1",
     "next-redux-wrapper": "^6.0.0",
     "react": "16.13.1",
